@@ -1,0 +1,104 @@
+PROFISSIONAIS(Quantidade:5)
+{primeiroNome='Luis', ultimoNome='Aguiar', email='ola', areasDeInteresse=[Informatica, SQL, java], idProfissional=0, empresaAtual=null, localizacao=Point{x=2.0, y=12.0}}
+Competencias
+{tipo='economia', experiencia=1, idCompetencia=0, dataDeAquisicao=2013/3/23}
+EncontrosEmpresa
+{nParticipantes=1, nome='evento', idEncontro=0, localizacao=Point{x=2.0, y=12.0}, empresaCriadora={nome='google', tipo='software', idEmpresa=0, localizacao=Point{x=2.0, y=12.0}}, data=19/5/2016}
+{nParticipantes=1, nome='convencao', idEncontro=1, localizacao=Point{x=23.0, y=2.0}, empresaCriadora={nome='google', tipo='software', idEmpresa=0, localizacao=Point{x=2.0, y=12.0}}, data=22/4/2014}
+EmpresasAntigas
+EmpresasASeguir
+{nome='google', tipo='software', idEmpresa=0, localizacao=Point{x=2.0, y=12.0}}
+{nome='Microsoft', tipo='disto', idEmpresa=1, localizacao=Point{x=2.0, y=3.0}}
+EmpresasSeguidoras
+{nome='google', tipo='software', idEmpresa=0, localizacao=Point{x=2.0, y=12.0}}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{primeiroNome='Zezinho', ultimoNome='Couves', email='fds@gmail.com', areasDeInteresse=[Informatica, background, C++], idProfissional=1, empresaAtual={nome='Microsoft', tipo='disto', idEmpresa=1, localizacao=Point{x=2.0, y=3.0}}, localizacao=Point{x=12.0, y=3.0}}
+Competencias
+{tipo='economia', experiencia=1, idCompetencia=0, dataDeAquisicao=2013/3/23}
+EncontrosEmpresa
+{nParticipantes=1, nome='reuniao', idEncontro=2, localizacao=Point{x=12.0, y=3.0}, empresaCriadora={nome='Microsoft', tipo='disto', idEmpresa=1, localizacao=Point{x=2.0, y=3.0}}, data=11/12/2016}
+EmpresasAntigas
+EmpresasASeguir
+{nome='Microsoft', tipo='disto', idEmpresa=1, localizacao=Point{x=2.0, y=3.0}}
+EmpresasSeguidoras
+{nome='Microsoft', tipo='disto', idEmpresa=1, localizacao=Point{x=2.0, y=3.0}}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{primeiroNome='Pedro', ultimoNome='Alemeida', email='123@gmail.com', areasDeInteresse=[], idProfissional=2, empresaAtual={nome='google', tipo='software', idEmpresa=0, localizacao=Point{x=2.0, y=12.0}}, localizacao=Point{x=2.0, y=3.0}}
+Competencias
+{tipo='tecnologias', experiencia=3, idCompetencia=1, dataDeAquisicao=2019/4/19}
+EncontrosEmpresa
+{nParticipantes=1, nome='reuniao', idEncontro=2, localizacao=Point{x=12.0, y=3.0}, empresaCriadora={nome='Microsoft', tipo='disto', idEmpresa=1, localizacao=Point{x=2.0, y=3.0}}, data=11/12/2016}
+EmpresasAntigas
+EmpresasASeguir
+EmpresasSeguidoras
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{primeiroNome='Antonio', ultimoNome='Fernando', email='123@gmail.com', areasDeInteresse=[], idProfissional=3, empresaAtual={nome='blip', tipo='tecnologia', idEmpresa=2, localizacao=Point{x=12.0, y=3.0}}, localizacao=Point{x=2.0, y=3.0}}
+Competencias
+{tipo='tecnologias', experiencia=10, idCompetencia=2, dataDeAquisicao=2016/5/19}
+EncontrosEmpresa
+EmpresasAntigas
+EmpresasASeguir
+EmpresasSeguidoras
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{primeiroNome='Joe', ultimoNome='Berardo', email='wikileaks@gmail.com', areasDeInteresse=[], idProfissional=4, empresaAtual={nome='google', tipo='software', idEmpresa=0, localizacao=Point{x=2.0, y=12.0}}, localizacao=Point{x=2.0, y=3.0}}
+Competencias
+{tipo='informatica', experiencia=5, idCompetencia=3, dataDeAquisicao=2016/12/11}
+EncontrosEmpresa
+EmpresasAntigas
+EmpresasASeguir
+EmpresasSeguidoras
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+COMPETENCIAS(Quantidade:4)
+{tipo='economia', experiencia=1, idCompetencia=0, dataDeAquisicao=2013/3/23}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{tipo='tecnologias', experiencia=3, idCompetencia=1, dataDeAquisicao=2019/4/19}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{tipo='tecnologias', experiencia=10, idCompetencia=2, dataDeAquisicao=2016/5/19}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{tipo='informatica', experiencia=5, idCompetencia=3, dataDeAquisicao=2016/12/11}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ENCONTROS(Quantidade:3)
+{nParticipantes=1, nome='evento', idEncontro=0, localizacao=Point{x=2.0, y=12.0}, empresaCriadora={nome='google', tipo='software', idEmpresa=0, localizacao=Point{x=2.0, y=12.0}}, data=19/5/2016}
+Participantes
+{primeiroNome='Luis', ultimoNome='Aguiar', email='ola', areasDeInteresse=[Informatica, SQL, java], idProfissional=0, empresaAtual=null, localizacao=Point{x=2.0, y=12.0}}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{nParticipantes=1, nome='convencao', idEncontro=1, localizacao=Point{x=23.0, y=2.0}, empresaCriadora={nome='google', tipo='software', idEmpresa=0, localizacao=Point{x=2.0, y=12.0}}, data=22/4/2014}
+Participantes
+{primeiroNome='Luis', ultimoNome='Aguiar', email='ola', areasDeInteresse=[Informatica, SQL, java], idProfissional=0, empresaAtual=null, localizacao=Point{x=2.0, y=12.0}}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{nParticipantes=1, nome='reuniao', idEncontro=2, localizacao=Point{x=12.0, y=3.0}, empresaCriadora={nome='Microsoft', tipo='disto', idEmpresa=1, localizacao=Point{x=2.0, y=3.0}}, data=11/12/2016}
+Participantes
+{primeiroNome='Pedro', ultimoNome='Alemeida', email='123@gmail.com', areasDeInteresse=[], idProfissional=2, empresaAtual={nome='google', tipo='software', idEmpresa=0, localizacao=Point{x=2.0, y=12.0}}, localizacao=Point{x=2.0, y=3.0}}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+EMPRESAS(Quantidade:4)
+{nome='google', tipo='software', idEmpresa=0, localizacao=Point{x=2.0, y=12.0}}
+ProfissionaisASeguir
+ProfissionaisSeguidores
+Encontros
+Trabalhadores
+{primeiroNome='Joe', ultimoNome='Berardo', email='wikileaks@gmail.com', areasDeInteresse=[], idProfissional=4, empresaAtual={nome='google', tipo='software', idEmpresa=0, localizacao=Point{x=2.0, y=12.0}}, localizacao=Point{x=2.0, y=3.0}}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{nome='Microsoft', tipo='disto', idEmpresa=1, localizacao=Point{x=2.0, y=3.0}}
+ProfissionaisASeguir
+ProfissionaisSeguidores
+Encontros
+{nParticipantes=1, nome='reuniao', idEncontro=2, localizacao=Point{x=12.0, y=3.0}, empresaCriadora={nome='Microsoft', tipo='disto', idEmpresa=1, localizacao=Point{x=2.0, y=3.0}}, data=11/12/2016}
+Trabalhadores
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{nome='blip', tipo='tecnologia', idEmpresa=2, localizacao=Point{x=12.0, y=3.0}}
+ProfissionaisASeguir
+ProfissionaisSeguidores
+Encontros
+Trabalhadores
+{primeiroNome='Antonio', ultimoNome='Fernando', email='123@gmail.com', areasDeInteresse=[], idProfissional=3, empresaAtual={nome='blip', tipo='tecnologia', idEmpresa=2, localizacao=Point{x=12.0, y=3.0}}, localizacao=Point{x=2.0, y=3.0}}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{nome='Yahoo', tipo='coisas', idEmpresa=3, localizacao=Point{x=23.0, y=2.0}}
+ProfissionaisASeguir
+ProfissionaisSeguidores
+Encontros
+Trabalhadores
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
